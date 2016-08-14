@@ -9,3 +9,5 @@ entertain_center.py imports media.py and creates instances of the Movie class an
 
 fresh_tomatoes.py takes the media.py and entertainment_center and opens the static webpage with its open_movies_page along with JS, HTML and CSS.
 
+The application will be executed by the entertainment_centre.py file because it calls the open_movies_page function in fresh tomatoes.
+Program can be run by any python IDE (IDLE, Pycharm etc). Have all files in one folder and execute the entertainment_centre.py file. Upon execution it should open a static web page on your default browswer with a list of my favorite movies.
