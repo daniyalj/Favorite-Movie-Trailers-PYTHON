@@ -1,6 +1,8 @@
 import media
 import fresh_tomatoes
 
+#beginning creating instances for my favorite movies
+
 interstellar = media.Movie("Interstellar",
                            "A team of explorers travel through a wormhole in space",
                            "http://www.joblo.com/posters/images/full/interstellar_ver8_xlg.jpg",
@@ -37,5 +39,8 @@ forrest_gump = media.Movie("Forrest Gump",
                            "https://ca.movieposter.com/posters/archive/main/5/A70-2717",
                            "https://www.youtube.com/watch?v=uPIEn0M8su0")
 
+#begin to create a list and store all my instances of my favorite movies
 movies = [interstellar, dark_knight, fight_club, inception, matrix, forrest_gump]
+
+#call open_movies_page function in fresh_tomatoes to open the static webpage
 fresh_tomatoes.open_movies_page(movies)
